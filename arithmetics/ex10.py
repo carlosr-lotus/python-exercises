@@ -4,6 +4,6 @@
 
 def main():
   user_input = float(input('Your amount in BRL: R$'))
-  print(f"With {user_input}, you can buy US${(user_input / 5.87):.2f}")
+  print(f"With R${user_input:.2f}, you can buy US${(user_input / 5.87):.2f}")
 
 main()
